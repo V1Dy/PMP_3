@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext"
+        android:paddingStart="7dp"
+        android:hint="@string/newTableHint"
+        android:paddingEnd="7dp"
+        android:textColor="@color/colorText"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/editBeerCount"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toStartOf="@+id/buttonDeleteTable"
+        android:hint="@string/beercountEdit"
+        android:inputType="number"
+        android:textColor="@color/colorText"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/edittext"
+        android:text="@string/btnNewTableSave"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/button_save"
+        android:textColor="@color/colorText"
+        android:textSize="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorButtonBackground"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/buttonDeleteTable"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_below="@id/edittext"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/button_save"
+        android:background="@color/colorRemoveBeer"
+        android:text="@string/btnDeleteTable"
+        android:textColor="@color/colorText"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

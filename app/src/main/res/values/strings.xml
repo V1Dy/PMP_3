@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VSPJ PMP SP</string>
+    <string name="mainTitle">Pivní lístek</string>
+    <string name="btnNewTableSave">Přidat</string>
+    <string name="newTableHint">Název stolu</string>
+    <string name="beercountEdit">Počet piv</string>
+    <string name="btnDeleteTable">Odstranit</string>
+
+</resources>
