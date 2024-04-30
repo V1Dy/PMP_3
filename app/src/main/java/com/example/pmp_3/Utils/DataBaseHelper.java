@@ -17,8 +17,8 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 
     private SQLiteDatabase db;
 
-    private static  final String DATABASE_NAME = "TODO_DATABASE";
-    private static  final String TABLE_NAME = "TODO_TABLE";
+    private static  final String DATABASE_NAME = "BEER_LIST_DATABASE";
+    private static  final String TABLE_NAME = "BEER_TABLE";
     private static  final String COL_1 = "ID";
     private static  final String COL_2 = "TASK";
     private static  final String COL_3 = "STATUS";

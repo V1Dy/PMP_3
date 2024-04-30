@@ -76,7 +76,7 @@ public class TableAdapter extends RecyclerView.Adapter<TableAdapter.MyViewHolder
         myDB.updateBeerCount(item.getId(), item.getBeerCount() + 1);
         mList.get(position).setBeerCount(item.getBeerCount() + 1);
         notifyItemChanged(position);
-        Log.d("beerCount", "Updated beer count: " + item.getBeerCount());
+        Log.d("beerCount", "beer count: " + item.getBeerCount());
     }
 
     public void editTable(int position){
